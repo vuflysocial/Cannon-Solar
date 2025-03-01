@@ -10,15 +10,18 @@ import Footer from "../Footer";
 
 const ModelS = () =>{
 
-    document.title = "Model S | Tesla";
+    document.title = "Residential | Cannon Solar";
     return(
         <Wrapper>
             <Header/>
             <Content>
                 <Section 
-                title="Model S" 
-                desc="Plaid" 
-                backgroundImg="model-s.jpg" 
+                title="Residential Solar" 
+                desc="Cannon Solar delivers customized residential 
+                solar solutions, offering seamless installation,
+                expert guidance, and flexible financing to help you save on energy costs, 
+                increase home value, and support a sustainable future." 
+                backgroundImg="196-MainBanner.jpg" 
                 arrow="true" 
                 range='396'
                 speed='1.99'

@@ -9,14 +9,14 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 const ModelX = () =>{
-    document.title = "Model X | Tesla";
+    document.title = "Solar Battery Storage | Cannon Solar";
     return(
         <Wrapper>
             <Header/>
             <Section 
-                title="Model X" 
+                title="Solar Battery Storage" 
                 desc='Plaid'
-                backgroundImg="model-x.jpg" 
+                backgroundImg="solarstorage.jpeg" 
                 arrow="true" 
                 range='333'
                 speed='2.5'

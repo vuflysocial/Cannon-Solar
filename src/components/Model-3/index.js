@@ -9,13 +9,13 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 const Model3 = () =>{
-    document.title = "Model 3 | Tesla";
+    document.title = "Commercial | Cannon Solar";
     return(
         <Wrapper>
             <Header/>
             <Section 
-                title="Model 3" 
-                backgroundImg="model3_2.jpeg" 
+                title="Commercial Solar" 
+                backgroundImg="csolarpanel.jpg" 
                 arrow="true" 
                 range='358'
                 speed='3.1'

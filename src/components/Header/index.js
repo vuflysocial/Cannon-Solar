@@ -14,19 +14,19 @@ const Header = () => {
         <Wrapper>
             <div className='logo' >
             <Link to='/'>
-                <img src='/images/logo.svg' alt='logo'/>
+                <img src='/images/cannon-solar.webp' alt='logo'/>
             </Link>
             </div>
             <Content>
-                <Link to='/models'>Model S</Link>
-                <Link to='/model3'>Model 3</Link>
-                <Link to='/modelx'>Model X</Link>
-                <Link to='/modely'>Model Y</Link>
-                <Link to='#'>Solar Roof</Link>
-                <Link to='#'>Solar Panels</Link>
+                <Link to='/models'>Residential Solar</Link>
+                <Link to='/model3'>Commercial Solar</Link>
+                <Link to='/modelx'>Solar Battery Storage</Link>
+                <Link to='/modely'>Maintenance & Repair</Link>
+                <Link to='#'>Authorized Dealer?</Link>
+                <Link to='#'>Contact Us</Link>
             </Content>
             <Content1>
-                <a href='#' className='none' >Shop</a>
+                
                 <Link to='/login' className='none'>Account</Link>
                 <a href='#' onClick={()=> setOpen(true)} >Menu</a>
             </Content1>

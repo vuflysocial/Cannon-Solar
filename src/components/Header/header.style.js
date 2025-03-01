@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
         transition: all 300ms ease-in;
         cursor: pointer;
         :hover{
-            background-color: rgba(90, 90, 90, 0.1);
+            background-color: rgb(255, 165, 0);
         }
     }
     .top{
@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
     }
     @media screen and (max-width: 1150px){
         .close{
-            background-color: lightgrey;
+            background-color: yellow;
         }
     }
 
